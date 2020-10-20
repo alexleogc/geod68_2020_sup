@@ -2,7 +2,8 @@ program fatorial
     implicit none
     integer n,i,fact
 
-    print*,'Digite o valor de n para calcularmos o fatorial'
+    print*,'Digite o valor de n para calcularmos o fatorial '
+    print*,'n tem que ser igual ou maior que 1: '
     read*,n
 
     if (n<1) then
